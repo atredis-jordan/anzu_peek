@@ -1,0 +1,82 @@
+{
+  "campaigns": {
+    "id_bidder_bid": {
+      "id": "campaignid",
+      "mode": "solo",
+      "revision": 1,
+      "priority": 7000,
+      "start": 1742489262,
+      "end": 1742490282,
+      "account_id": "1337",
+      "platforms": [
+        "*"
+      ],
+      "active": true,
+      "bid_id": "bidderid",
+      "cc": [
+        "US"
+      ],
+      "cc_inc": true,
+      "advertiser_domain": "atredis.com",
+      "interstitials": {
+        "*": []
+      },
+      "prologue": [],
+      "limits": {
+        "impression_time_threshold": 2,
+        "mrc": true
+      },
+      "actions": {
+        "impression": [
+        ],
+        "progress": {
+          "0.010": [
+          ],
+          "0.250": [
+          ],
+          "0.500": [
+          ],
+          "0.750": [
+          ],
+          "1.000": [
+          ],
+          "0": [
+          ]
+        },
+        "play": [
+        ],
+        "stop": [
+        ]
+      },
+      "filters": [],
+      "placements": {
+        "P5hTeR": {
+          "permissions": {
+            "logo": false,
+            "interactive": true,
+            "web": false,
+            "image": false,
+            "video": true,
+            "static": false
+          }
+        }
+      },
+      "videotextures": {
+        "P5hTeR": [
+          "video.rtb.bird"
+        ]
+      }
+    }
+  },
+  "images": {},
+  "videos": {
+    "video.rtb.bird": {
+      "id": "video.rtb.bird",
+      "width": 640,
+      "height": 360,
+      "url": "http://localhost:8000/bird.webm",
+      "sha256": "updateme",
+      "size": 4141
+    }
+  }
+}
